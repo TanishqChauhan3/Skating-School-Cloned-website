@@ -1,0 +1,994 @@
+<html>
+	<head>
+		<title>Website Clone</title>
+		<style>
+		*{
+			margin:0px;
+			padding:0px;
+		 }
+		 
+			img{
+			object-fit:cover;
+			}
+			.SBS{	
+			margin-top:10px;
+			margin-left:40px;
+			float:left;
+			}	
+			
+			.menu{
+				margin-top:10px;
+				margin-left:440px;
+				float:left;
+				}
+			input[type=button]{
+			border:0px;
+			padding:15px;
+			font-family:Arial;
+			background-color:white;
+			border-radius:40px;
+			}
+				
+			input[type=button]:hover{
+			background-color:#f0390f;
+			color:white;
+			transition-duration:1s;
+			}
+			
+		.top{
+			 float:left;
+			 margin-top:180px;
+			 margin-left:240px;
+			 }
+				
+				
+		.skate{
+			margin-top:50px;
+			font-weight:bold;
+			font-size:50px;
+			float:left;
+			font-family:Arial;
+			margin-left:230px;
+			}
+			.down1{
+				margin-top:640px;
+				}
+		.banner{
+			float:right;
+			margin-top:40px;
+			margin-right:30px;
+			}
+		  
+		.readl{
+			font-weight:bold;
+			font-size:12px;
+			float:left;
+			font-family:Arial;
+			margin-top:250px;
+			margin-left:-180px;
+		 }
+		 
+		.readl:hover{
+			color:#f0390f;
+		}
+		
+		.readl:hover + .linel{
+			height:10px;
+			width:100px;
+			transition-property:width;
+			transition-duration:1s;
+		}
+		
+		.linel{
+			border-bottom: 2px solid #f0390f;
+			height:0px;
+			width:0px;
+			float:left;
+			margin-left:306px;
+			margin-top:23px;
+			}
+		
+		.circle1{
+			margin-left:70px;
+			height:45px;
+			width:45px;
+			background-color:#3e0bce;
+			border-radius:50%;
+			display:inline-block;
+			text-align:center;
+			margin-top:20px;
+			}
+			
+		.circle2{
+			margin-left:30px;
+			height:45px;
+			width:45px;
+			background-color:#3e0bce;
+			border-radius:50%;
+			display:inline-block;
+			text-align:center;
+			margin-top:20px;
+			}
+			
+			
+		.circle1:hover{	
+			background-color:#f0390f;
+		}
+		
+		.circle2:hover{	
+			background-color:#f0390f;
+		}
+		
+		.down2{
+			color:black;
+			margin-top:80px;
+			font-size:35px;
+			text-align:center;
+			font-weight:bold;
+			font-family:Arial;
+			}
+			
+		.read:hover{
+			display:inline-block;
+			height:10px;
+			width:20px;
+			background-color:red;
+			}
+			
+		  .read1{
+			margin-left:250px;
+			font-weight:bold;
+			float:left;
+			font-family:Arial;
+			}
+			
+			.BC{
+			margin-left:520px;
+			}
+			
+			.read2{
+			font-weight:bold;
+			float:left;
+			font-family:Arial;
+			}
+			
+			.line1{
+			border-bottom: 2px solid #f0390f;
+			height:0px;
+			width:0px;
+			float:left;
+			margin-left:1px;
+			margin-top:-2px;
+			}
+			.line2{
+			border-bottom: 2px solid #f0390f;
+			height: 0px;
+			width:0px;
+			float:left;
+			margin-left:1px;
+			margin-top:-2px;
+			}
+			.CD{
+			margin-left:800px;
+			}
+			.read3{
+		    font-weight:bold;
+			float:left;
+			font-family:Arial;
+			}
+			.line3{
+			border-bottom: 2px solid #f0390f;
+			height:0px;
+			width:0px;
+			float:left;
+			font-family:Arial;
+			margin-left:1px;
+			margin-top:-2px;
+			}
+			.read1:hover{
+			color:#f0390f;
+			}
+		.read1:hover + .line1{
+			height:10px;
+			width:100px;
+			transition-duration:1s;
+			transition-property:width;
+			}
+			
+		.read2:hover + .line2{
+			height:10px;
+			width:100px;
+			transition-duration:1s;
+			transition-property:width;
+			}
+			.read2:hover{
+			color:#f0390f;
+			}	
+		.read3:hover + .line3{
+			height:10px;
+			width:100px;
+			transition-duration:1s;
+			transition-property:width;
+			}
+			.read3:hover{
+			color:#f0390f;
+			}
+		.gyan{
+			text-align:center;
+			font-family:Arial;
+			}
+			
+		.daba{
+			margin-top:50px;
+			font-family:Arial;
+			}
+			
+		.daba1{
+			margin-left:250px;
+			height:250px;
+			width:200px;
+			background-color:#f0390f;
+			border-radius:10px;
+			float:left;
+			padding:20px;
+			}
+			.img1{
+				margin-top:10px;
+				width:74px;
+				height:72px;
+				background-image:url(class1.png);
+				display:inline-block;
+				margin-left:70px;
+				}
+		.skate1{
+				display:inline-block;
+				font-weight:bold;
+				color:white;
+				margin-top:	20px;
+				text-align:center;
+				font-size:20px;
+				margin-left:40px;
+				font-family:monospace;
+				}
+				
+			.state1{
+				margin-top:20px;
+				display:inline-block;
+				color:white;
+				text-align:center;
+				font-size:12px;
+				line-height:20px;
+			}
+			.img2{
+				margin-top:10px;
+				width:66px;
+				height:72px;
+				background-image:url(class2.png);
+				display:inline-block;
+				margin-left:70px;
+				}
+				
+		.skate2{
+				display:inline-block;
+				font-weight:bold;
+				color:white;
+				margin-top:20px;
+				text-align:center;
+				font-size:20px;
+				margin-left:40px;
+				font-family:Arial;
+				}
+			.state2{
+				margin-top:20px;
+				display:inline-block;
+				color:white;
+				text-align:center;
+				line-height:20px;
+				font-size:12px;
+			}
+			.img3{
+				margin-top:10px;
+				width:78px;
+				height:72px;
+				background-image:url(class3.png);
+				display:inline-block;
+				margin-left:70px;
+				}
+				
+		.skate3{
+				display:inline-block;
+				font-weight:bold;
+				color:white;
+				margin-top:20px;
+				text-align:center;
+				font-size:20px;
+				margin-left:40px;
+				font-family:Arial;
+				}
+			.state3{
+				margin-top:20px;
+				display:inline-block;
+				color:white;
+				text-align:center;
+				line-height:20px;
+				font-size:12px;
+			}
+		.daba2{
+			margin-left:30px;
+			height:250px;
+			width:200px;
+			background-color:#3e0bce;
+			border-radius:10px;
+			float:left;
+			padding:20px;
+			}
+			
+		.daba3{
+			margin-left:30px;
+			height:250px;
+			width:200px;
+			background-color:#f0390f;
+			border-radius:10px;
+			float:left;
+			padding:20px;
+			}
+			.invisible{
+			height:45px;
+			background-color:red;
+			width:100%;
+			margin-top:270px;
+			visibility:hidden;
+			}
+			
+			.about{
+				margin-top:100px;
+				height:550px;
+				background-image:url(about_bg.jpg);	
+				}
+				
+			.abskate{
+				display:inline-block;
+				margin-top:180px;
+				margin-left:250px;
+				color:white;
+				font-weight:bold;
+				font-size:35px;
+				font-family:Arial;	
+				float:left;
+				}
+				.img4{
+					float:right;
+					margin-top:50px;
+					display:inline-block;
+					}
+			.text{
+				display:inline-block;
+				color:white;
+				font-family:Arial;
+				float:left;
+				margin-left:250px;
+				line-height:20px;
+				width:400px;
+				margin-top:30px;
+				font-size:13px;
+				}
+				
+			.read4{
+				margin-top:20px;
+				color:white;
+				font-weight:bold;
+				display:inline-block;
+				font-family:Arial;
+				font-size:13px;
+				float:left;
+				margin-left:250px;
+				}
+				
+			.line4{
+			border-bottom: 2px solid #f0390f;
+			height:0px;
+			width:0px;
+			display:inline-block;
+			float:left;
+			margin-top:15px;
+			margin-left:2px;
+			}
+				
+				.read4:hover{
+				color:#f0390f;
+				}
+				
+			.read4:hover + .line4{
+			height:10px;
+			width:100px;
+			transition-duration:1s;
+			transition-property:width;
+			}
+			
+			.video{
+				color:black;
+			margin-top:80px;
+			font-size:30px;
+			text-align:center;
+			font-weight:bold;
+			font-family:Arial;
+			}
+			
+			.d{
+			text-align:center;
+			font-family:Arial;
+			}
+			.symbol{
+				margin-top:50px;
+				}
+				
+			.video1{
+				margin-left:30px;
+				float:left;
+				}
+			.video2{
+				margin-left:100px;
+				float:left;
+				}
+				
+				.video3{
+					margin-left:140px;
+					float:left;					
+					}
+			
+			.see{
+				margin-top:580px;
+				margin-left:40px;
+				}
+				
+			.seea{
+				margin-top:580px;
+				margin-left:420px;
+				}
+				
+			.seeb{
+				margin-top:580px;
+				margin-left:900px;
+				}
+				
+			.see1{
+				display:inline-block;
+				font-weight:bold;
+				font-size:12px;
+				font-family:Arial;
+				float:left;
+				}
+				.see1:hover{
+				color:#f0390f;
+				}
+			.see1:hover + .line5{
+				height:10px;
+				width:100px;
+				transition-duration:1s;
+				transition-property:width;
+				}
+				
+					
+			.line5{
+			border-bottom: 2px solid #f0390f;
+			height:0px;
+			width:0px;
+			display:inline-block;
+			float:left;
+			margin-left:2px;
+			margin-top:-5px;
+			}
+				
+					
+			.line6{
+			border-bottom: 2px solid #f0390f;
+			height: 0px;
+			width:0px;
+			display:inline-block;
+			margin-left:2px;
+			margin-top:-5px;
+			float:left;
+			}
+			
+					
+			.line7{
+			border-bottom: 2px solid #f0390f;
+			height:0px;
+			width:0px;
+			display:inline-block;
+			margin-left:2px;
+			margin-top:-5px;
+			float:left;
+			}
+			.see2{
+				display:inline-block;
+				font-weight:bold;
+				font-size:12px;
+				font-family:Arial;
+				float:left;
+				}
+				.see2:hover{
+				color:#f0390f;
+				}
+				
+			.see2:hover + .line6{
+				height:10px;
+				width:100px;
+				transition-duration:1s;
+				transition-property:width;
+				}
+				
+			.see3{
+				display:inline-block;
+				font-weight:bold;
+				font-size:12px;
+				font-family:Arial;
+				float:left;
+				}
+				.see3:hover{
+				color:#f0390f;
+				}
+				
+			.see3:hover + .line7{
+				height:10px;
+				width:100px;
+				transition-duration:1s;
+				transition-property:width;
+				}
+		
+			 .shop{
+				margin-top:50px;
+				margin-left:90px;	 
+				float:left;
+				}
+				
+			.Our{
+				font-weight:bold;
+				font-size:40px;
+				float:left;
+				margin-left:50px;
+				margin-top:250px;
+				font-family:Arial;
+				}
+			.t{
+				margin-top:10px;
+				margin-left:50px;
+				float:left;
+				line-height:25px;
+				font-family:Arial;
+				font-size:12px;
+				width:300px;
+				}
+				.buy{
+					float:left;
+					font-weight:bold;
+					margin-top:150px;
+					margin-left:-300px;
+					}
+				.buy:hover{
+					color:#f0390f;
+					}
+					
+				.buy:hover + .line8{
+					color:#f0390f;
+					height:10px;
+					width:100px;
+					transition-duration:1s;
+					transition-property:width;
+					}
+					
+				.line8{
+					border-bottom: 2px solid #f0390f;
+					height:0px;
+					width:0px;
+					margin-left:-222px;
+					margin-top:148px;
+					float:left;
+					
+					}
+			.invis{
+				margin-top:600px;
+				background-color:yellow;
+				height:170px;
+				visibility:hidden;
+				}
+					
+			.Testi{
+				margin-top:30px;
+				height:700px;
+				background-color:#3e0bce;
+				text-align:center;
+				}
+				
+			.data11{
+				color:white;
+				font-size:35px;
+				margin-top:50px;
+				display:inline-block;
+				font-weight:bold;
+				font-family:Arial;
+				}
+				
+			.dava1{
+				background-color:white;
+				border-radius:50%;
+				height:80px;
+				width:80px;
+				display:inline-block;
+				margin-top:-35px;
+				text-align:center;
+				}
+				
+			.box1{
+				background-color:white;
+				border-radius:20px;
+				height:350px;
+				width:450px;
+				margin-top:100px;
+				margin-left:410px;
+				}
+				
+			.box2{
+				background-color:#f0390f;
+				border-radius:20px;
+				height:300px;
+				width:250px;
+				margin-top:-330px;
+				margin-left:130px;
+				}
+			
+			.box3{
+				background-color:#f0390f;
+				border-radius:20px;
+				height:300px;
+				width:250px;
+				margin-top:-300px;
+				margin-left:890px;
+				}
+			
+			
+				.dava2{
+				background-color:white;
+				border-radius:50%;
+				height:80px;
+				width:80px;
+				display:inline-block;
+				margin-top:-35px;
+				text-align:center;
+				}
+				
+				.dava3{
+				background-color:white;
+				border-radius:50%;
+				height:80px;
+				width:80px;
+				display:inline-block;
+				margin-top:-35px;
+				text-align:center;
+				}
+				
+			.men1{
+				display:inline-block;
+				margin-top:15px;
+				}
+				.men2{
+				display:inline-block;
+				margin-top:15px;
+				}
+				
+			.men3{
+				display:inline-block;
+				margin-top:15px;
+				}
+				.name1{
+					font-weight:bold;
+					display:inline-block;
+					margin-top:60px;
+					font-size:20px;
+					font-family:Arial;
+					}
+					
+				.name2{
+					font-weight:Bold;
+					color:white;
+					display:inline-block;
+					margin-top:40px;
+					font-size:20px;
+					font-family:Arial;
+					}
+				
+				.name3{
+					font-weight:Bold;
+					color:white;
+					display:inline-block;
+					margin-top:40px;
+					font-size:20px;
+					font-family:Arial;
+					}
+					
+				.sym1{
+						display:inline-block;
+						background-image:url(te2.png);
+						width:40px;
+						height:30px;
+						margin-top:20px;
+					}
+					
+				.sym2{
+					display:inline-block;
+						background-image:url(te.png);
+						width:25px;
+						height:20px;
+						margin-top:20px;
+					}
+					
+				.sym3{
+					display:inline-block;
+						background-image:url(te.png);
+						width:25px;
+						height:20px;
+						margin-top:20px;
+					}
+					
+				.test3{
+					display:inline-block;
+					color:white;
+					margin-top:20px;
+					font-family:Arial;
+					padding:20px;
+					
+					}
+					
+				.test2{
+					display:inline-block;
+					color:white;
+					margin-top:20px;
+					font-family:Arial;
+					padding:20px;
+					
+					}
+					
+				.test1{
+					display:inline-block;
+					margin-top:20px;
+					font-family:Arial;
+					padding:20px;
+					
+					}
+					
+				.lcircle1{
+				display:inline-block;
+				border-radius:50%;
+				margin-top:160px;
+				width:50px;
+				height:50px;
+				background-color:#f0390f;
+				text-align:center;
+				}
+				
+				.lcircle1:hover{
+					background-color:#d2312fb0;
+					}
+					
+				.lcircle2:hover{
+					background-color:#d2312fb0;
+					}
+					
+				.lcircle2{
+				display:inline-block;
+				border-radius:50%;
+				margin-top:160px;
+				width:50px;
+				height:50px;
+				background-color:#f0390f;
+				margin-left:-10px;
+				text-align:center;
+				}
+				
+				.contact{
+				color:black;
+				font-weight:900;
+				margin-top:100px;
+				font-size:20px;
+				font-family:Arial;
+				margin-left:250px;
+				}
+				
+				.call{
+					font-size:15px;
+					margin-left:250px;
+					line-height:25px;
+					margin-top:-10px;
+					font-family:Arial;
+					font-size:12px;	
+					}
+					
+				.line9{
+					border-left:1px solid #f0390f;
+					height:150px;
+					width:10px;
+					float:left;
+					margin-left:650px;
+					margin-top:-120px;
+					}
+					
+				.News{
+					font-weight:900;
+					margin-left:680px;
+					font-size:20px;
+					margin-top:-125px;
+					font-family:Arial;
+					}
+					
+				.use{
+					font-weight:900;
+					margin-left:680px;
+					font-size:20px;
+					margin-top:50px;
+					font-family:Arial;
+					}
+					
+				.end{
+					height:50px;
+					background-color:#f0390f;
+					color:white;
+					margin-top:80px;
+					text-align:center;
+					}
+				.enter{
+					display:inline-block;
+					margin-top:20px;
+					margin-top:20px;
+					color:white;
+					font-size:13px;
+					font-family:Arial;
+					}
+				.arrow1{
+					display:inline-block;
+					color:white;
+					font-size:30px;
+					font-weight:bold;
+					margin-top:6px;
+					}
+				.arrow2{
+					display:inline-block;
+					color:white;
+					font-size:30px;
+					font-weight:bold;
+					margin-top:6px;
+					}
+		</style>
+	</head>
+<body width=100%>
+	<div class=SBS><img src="logo.png" width="90" height="40"></div>
+	<div class=menu>
+		<input type="button" value="HOME"/>
+		<input type="button" value="ABOUT"/>
+		<input type="button" value="SKATING"/>
+		<input type="button" value="SHOP"/>
+		<input type="button" value="CONTACT US"/>
+	</div>
+	<div class=banner><img src="banner_img.png" width="700" height="580"></div>
+	<div class=top><img src="top_icon.png" width="100" height="30"></div>
+	<div class=skate>Skating<br>Board<br>School</div>
+	<div class=readl>READ MORE
+	</div>
+	<div class=linel></div>
+	<br>
+	<div class=down1>
+		<div class=circle1>
+		</div>
+		<div class=circle2>
+	</div>
+	<div class=down2>Our Skating Class</div><br>
+	<div class=gyan>There are many variations of passages of skating.</div>
+	<div class=daba>
+		<div class=daba1>
+			<span class=img1></span>
+			<span class=skate1>SkateBoard</span>
+			<span class=state1>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration There are many variations</span>	
+		</div>
+		<div class=daba2>
+		<span class=img2></span>
+		<span class=skate2>SkateBoard</span>
+			<span class=state2>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration There are many variations</span>
+		</div>
+		<div class=daba3>
+		<span class=img3></span>
+		<span class=skate3>SkateBoard</span>
+			<span class=state3>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration There are many variations</span>
+		</div>
+	</div>
+	<br>
+	<div class=invisible></div>
+	<div class=AB>
+		<div class=read1>READ MORE</div>
+		<div class=line1></div>
+	</div>
+	<div class=BC>
+		<div class=read2>READ MORE</div>
+		<div class=line2></div>
+	</div>
+	<div class=CD>
+		<div class=read3>READ MORE</div>
+		<div class=line3></div>
+	</div>
+	<div class=about>
+		<span class=img4><img src="about.png" width="580" height="500"></span>
+		<span class=abskate>About<br>skating<br>School</span><br>
+		<span class=text>There are many variations of passages of Lorem Ipsum available,but the majority have suffered alterationThere are many variation There are many variations of passages of Lorem Ipsum available, but the majority have suffered alterationThere are many variationsns</span><br>
+		<span class=read4>READ MORE</span>
+		<span class=line4></span>
+	</div>
+	<div class=video>Skating Video</div><br>
+	<div class=d>There are many variations of passages of Lorem Ipsum available, but the majority have suffered</div>
+	<div class=symbol>
+		<div class=video1><img src="sakt1.png" width="300" height="500"></div>
+		<div class=video2><img src="sakt2.png" width="300" height="500"></div>
+		<div class=video3><img src="sakt3.png" width="300" height="500"></div>
+	</div>
+	<div class=see>
+		<span class=see1>SEE MORE</span>
+		<span class=line5></span>
+	</div>
+	<div class=seea>
+		<span class=see2>SEE MORE</span>
+		<span class=line6></span>
+	</div>
+	<div class=seeb>
+		<span class=see3>SEE MORE</span>
+		<span class=line7></span>
+	</div>
+	<div class=shop><img src="shop.png" width="650" height="680"></div>
+	<div class=Our>Our Skate<br>Shop</div><br>
+	<div class=t>There are many variations of passages of LoremIpsum available, but the majority have sufferedalteration There are many variatioThere are manyvariations of passages of Lorem Ipsum available, but the majority have suffered alteration There are many variationsns</div><br>
+	<div class=buy>BUY NOW</div>
+	<div class=line8></div>
+	<div class=invis></div>
+	<div class=Testi>
+		<span class=data11>Testimonial</span><br>
+		<div class=box1>
+			<div class=dava1>
+			<span class=men1><img src="test1.png" width=30px></span>
+			</div><br>
+			<span class=name1>Tanishq Chauhan</span><br>
+			<span class=sym1></span><br>
+			<span class=test1>humour, or randomised words which don't look even slightly believable.If you are going to use a passage of Lorem Ipsum, you need to be sure</span>
+		</div>
+		<div class=box2>
+			<div class=dava2>
+				<span class=men2><img src="test2.png" width=30px></span>
+			</div><br>
+			<span class=name2>Yash Chauhan</span><br>
+			<span class=sym2></span><br>
+			<span class=test2>humour, or randomised words which don't look even slightly believable.If you are</span>
+		</div>
+		<div class=box3>
+			<div class=dava3>
+				<span class=men3><img src="test3.png" width=30px></span>
+			</div><br>
+			<span class=name3>Chahit Chauhan</span><br>
+			<span class=sym3></span><br>
+			<span class=test3>humour, or randomised words which don't look even slightly believable.If you are</span>
+		</div>
+		<div Class=lcircle1>
+			<span class=arrow1><</span>
+		</div>
+		<div Class=lcircle2>
+			<span class=arrow2>></span>
+		</div>
+	</div>
+	<div class=page>
+		<div class=contact>Contact Us</div><br>
+		<div class=call>Call +91 9548833772<br>tanishqchauhan222@gmail.com<br>https://www.linkedin.com/in/tanishq-chauhan-18644124b/</div>
+		<div class=line9></div>
+		<div class=News>Newsletter</div>	
+		<!--<div class=enter><input type=text value="Enter your email"/></div>
+		<div class=enter><input type=text value="Enter your email"/></div>-->
+		<div class=sub></div>
+		<div class=use>Useful Link</div>
+		<div class=end>
+			<span class=enter>© 2024 All Rights Reserved. Designed by Tanishq Chauhan</span>
+		</div>
+</body>
+</html> 
